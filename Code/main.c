@@ -32,8 +32,8 @@ char keypadScan(void);
 const char keys[] PROGMEM = "123A456B789C*0#D";
 
 // Gate Opening Codes
-const char fullGateCode[] = "1234";  // Full gate opening code
-const char halfGateCode[] = "4321";  // Half gate opening code
+const char fullGateCode[] = "1234";  // On Code
+const char halfGateCode[] = "4321";  // Off code
 
 int main() {
     DDRD = 0xFF;  // Set PORTD as output for LCD
